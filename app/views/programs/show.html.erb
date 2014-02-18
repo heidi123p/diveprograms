@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Program description:</strong>
+  <%= @program.program_description %>
+</p>
+
+<p>
+  <strong>Minimum level:</strong>
+  <%= @program.minimum_level %>
+</p>
+
+<p>
+  <strong>Cost:</strong>
+  <%= @program.cost %>
+</p>
+
+<p>
+  <strong>Minimum length:</strong>
+  <%= @program.minimum_length %>
+</p>
+
+<p>
+  <strong>Website:</strong>
+  <%= @program.website %>
+</p>
+
+<p>
+  <strong>Gear:</strong>
+  <%= @program.gear %>
+</p>
+
+<p>
+  <strong>Accomodation included:</strong>
+  <%= @program.accomodation_included %>
+</p>
+
+<p>
+  <strong>Shop:</strong>
+  <%= @program.shop_id %>
+</p>
+
+<%= link_to 'Edit', edit_program_path(@program) %> |
+<%= link_to 'Back', programs_path %>
